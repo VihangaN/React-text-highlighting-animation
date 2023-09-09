@@ -1,0 +1,30 @@
+
+body {
+  margin:0;
+  padding:0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  height: 1000dvh;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text-wrapper {
+    padding: 0 2rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50dvh;
+
+    .text {
+      color: rgba(0,0,0,0.3);
+      font-weight: 500;
+      display: inline;
+    }
+  }
+}
